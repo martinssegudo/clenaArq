@@ -1,5 +1,14 @@
 package com.bank.domain.entity;
 
-public class Account {
+import lombok.Builder;
+import lombok.Data;
 
+import java.math.BigDecimal;
+
+@Data
+@Builder
+public class Account {
+    private Client client;
+    private String accountNumber;
+    private String agency;
 }
