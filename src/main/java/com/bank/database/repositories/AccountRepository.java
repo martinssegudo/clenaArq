@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.math.BigDecimal;
 
 @Repository
-public interface AccounRepository extends JpaRepository<AccountEntity, Long> {
+public interface AccountRepository extends JpaRepository<AccountEntity, Long> {
 
     public AccountEntity findByAccountNumberAndAgency(String accountNumber, String agency);
 
