@@ -1,4 +1,4 @@
-package com.bank.service.impl;
+package com.bank.service.contracts.impl;
 
 import com.bank.database.repositories.AccountRepository;
 import com.bank.service.exceptions.AccountServiceException;
